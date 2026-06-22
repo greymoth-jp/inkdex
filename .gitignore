@@ -5,3 +5,30 @@ _docs/
 node_modules/
 .DS_Store
 STORE_LISTING.md
+
+# === git-exposure-guardian (2026-06-22): never commit secrets / internal assets ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.keystore
+*.jks
+id_rsa*
+id_ed25519*
+*-credentials.json
+*credentials*.json
+serviceAccount*.json
+gcp-*.json
+firebase-adminsdk*.json
+.dev.vars
+.wrangler/
+secrets/
+_docs/
+research_bus/
+MEMORY.md
+*.local
+# === end git-exposure-guardian ===
