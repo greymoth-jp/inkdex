@@ -1,0 +1,7 @@
+_docs/
+*.zip
+*.tgz
+*.log
+node_modules/
+.DS_Store
+STORE_LISTING.md

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="head">
+    <span class="brand">INKDEX</span>
+    <span class="mark">✺</span>
+  </div>
+  <div class="rule"></div>
+
+  <div class="toggle" id="toggle">
+    <button data-d="1" class="on">TODAY</button>
+    <button data-d="7">7 DAYS</button>
+    <button data-d="30">30 DAYS</button>
+  </div>
+
+  <div class="hero">
+    <div class="n" id="heroN">0</div>
+    <div class="lbl">MESSAGES · CHATGPT &amp; CLAUDE</div>
+  </div>
+
+  <div class="grid">
+    <div class="cell"><div class="k">CLAUDE</div><div class="v" id="cClaude">0</div></div>
+    <div class="cell"><div class="k">CHATGPT</div><div class="v" id="cGpt">0</div></div>
+    <div class="cell"><div class="k">EST. TOKENS</div><div class="v" id="cTok">0</div></div>
+    <div class="cell"><div class="k">EST. COST</div><div class="v accent" id="cCost">$0.00</div></div>
+  </div>
+
+  <div class="note">✺ Figures are client-side <b>estimates</b>, not billing data. Everything stays in your browser — nothing is sent anywhere.</div>
+
+  <button class="act" id="make">PRINT WRAPPED CARD</button>
+  <canvas id="preview"></canvas>
+  <div class="row hidden" id="cardRow">
+    <button id="dl">DOWNLOAD PNG</button>
+    <button id="copy">COPY IMAGE</button>
+  </div>
+  <div id="status"></div>
+
+  <div class="foot"><span>print your AI month</span><span>v0.1.0</span></div>
+
+  <script src="src/estimate.js"></script>
+  <script src="src/storage.js"></script>
+  <script src="src/card.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Inkdex — AI Usage Tracker & Wrapped Card (ChatGPT, Claude)",
+  "version": "0.1.0",
+  "description": "Track your ChatGPT & Claude usage locally, then print a beautiful shareable Wrapped card. No account, no servers, nothing leaves your browser.",
+  "permissions": ["storage", "clipboardWrite"],
+  "host_permissions": [
+    "https://claude.ai/*",
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Inkdex",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": ["src/estimate.js", "src/storage.js", "src/track.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
