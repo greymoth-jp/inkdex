@@ -3,6 +3,8 @@
 **Track your ChatGPT & Claude usage locally, then print a beautiful shareable "Wrapped" card.**
 No account. No servers. Nothing leaves your browser.
 
+<p align="center"><img src="media/hero.png" width="640" alt="Inkdex — AI usage Wrapped card"></p>
+
 A monochrome, risograph-editorial Chrome extension (Manifest V3). It counts your messages on
 `claude.ai` and `chatgpt.com`, estimates tokens & cost client-side, shows a tiny live overlay, and
 one-click generates a print-style usage card you can download or copy.
