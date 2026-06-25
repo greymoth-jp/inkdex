@@ -50,3 +50,13 @@ counting on Claude uses the send action, so it degrades gracefully.
 
 ## License
 Code: MIT. Fonts: SIL Open Font License (Space Grotesk, JetBrains Mono).
+
+---
+
+### Built by greymoth
+
+19, Tokyo. I build small, honest dev tools in the open and file Japan-localization fixes into real OSS — and I publish what died, too.
+
+**[Everything in one place → the hub](https://greymoth-jp.github.io)** · **[Live proof — merged PRs + App Store, pulled from the GitHub API →](https://greymoth-jp.github.io/proof-dashboard/)**
+
+⭐ **[Follow on GitHub](https://github.com/greymoth-jp)** — every new tool ships as a public repo first, so a follow is a launch notification (no email, no algorithm).
