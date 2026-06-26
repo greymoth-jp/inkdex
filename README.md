@@ -1,6 +1,8 @@
 # Inkdex ✺
 
 **Track your ChatGPT & Claude usage locally, then print a beautiful shareable "Wrapped" card.**
+
+> ChatGPTとClaudeの利用量をブラウザ内で計測し、リソグラフ風の利用量カードを生成するChrome拡張。送信ゼロ。
 No account. No servers. Nothing leaves your browser.
 
 <p align="center"><img src="media/hero.png" width="640" alt="Inkdex — AI usage Wrapped card"></p>
